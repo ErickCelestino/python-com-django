@@ -7,6 +7,10 @@
     python manage.py startapp <modulo>
     ## Para iniciar o server
     python manage.py runserver
+    ## Para atualizar as migrações
+    python manage.py makemigrations
+    ## Para fazer a migração dos dados
+    python manage.py migrate
 ```
 
 ## Bibliotecas utilizadas
