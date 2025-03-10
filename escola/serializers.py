@@ -10,3 +10,4 @@ class CursoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Curso
         fileds = '__all__'
+        exclude = []
