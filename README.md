@@ -11,6 +11,8 @@
     python manage.py makemigrations
     ## Para fazer a migração dos dados
     python manage.py migrate
+    ## Para criar um super usuario
+    python manage.py createsuperuser
 ```
 
 ## Bibliotecas utilizadas
